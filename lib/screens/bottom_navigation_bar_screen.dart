@@ -1,3 +1,5 @@
+import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import "package:flutter/material.dart";
 import "package:cloud_firestore/cloud_firestore.dart";
 
@@ -21,6 +23,11 @@ class _BottomNavigationBarScreenState extends State<BottomNavigationBarScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+          child: Text("x"),
+          onPressed: () async {
+            await FirebaseAuth.instance.signOut();
+          }),
       body: IndexedStack(
         children: [
           Scaffold(
@@ -36,25 +43,22 @@ class _BottomNavigationBarScreenState extends State<BottomNavigationBarScreen> {
         ],
         index: _item_index,
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home_outlined),
-            label: "home",
-            activeIcon: Icon(Icons.home),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home_outlined),
-            label: "home2",
-            activeIcon: Icon(Icons.home),
-          ),
+      bottomNavigationBar: AnimatedBottomNavigationBar(
+        icons: [
+          Icons.directions_transit_sharp,
+          Icons.schedule,
+          Icons.group,
+          Icons.place_outlined,
         ],
-        currentIndex: _item_index,
-        onTap: (selected_index) => onItemTap(selected_index),
-        type: BottomNavigationBarType.fixed,
-        selectedItemColor: Colors.black,
-        showSelectedLabels: false,
-        showUnselectedLabels: false,
+        activeIndex: _item_index,
+        activeColor: Colors.black,
+        inactiveColor: Colors.black26,
+        gapLocation: GapLocation.none,
+        notchSmoothness: NotchSmoothness.verySmoothEdge,
+        leftCornerRadius: 20,
+        rightCornerRadius: 20,
+        onTap: (index) => onItemTap(index),
+        //other params
       ),
     );
   }
