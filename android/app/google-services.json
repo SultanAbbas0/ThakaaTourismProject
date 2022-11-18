@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "180679294338",
+    "project_id": "guidee-7da46",
+    "storage_bucket": "guidee-7da46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180679294338:android:89ec1016198a81e842a39b",
+        "android_client_info": {
+          "package_name": "com.example.thakaa_tourism_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180679294338-aqjf9fsp8r6hi0tooss6puqaq2i2qld0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWgYyvbCMFN40doOvrFcANST1jSm0axqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180679294338-aqjf9fsp8r6hi0tooss6puqaq2i2qld0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
