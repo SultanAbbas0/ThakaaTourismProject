@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 
 class MyTextFormField extends StatelessWidget {
-  MyTextFormField(this._fieldType, {Key? key}) : super(key: key);
+  MyTextFormField(this._fieldType, {this.controller, Key? key})
+      : super(key: key);
   final String _fieldType;
+  final TextEditingController? controller;
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +13,7 @@ class MyTextFormField extends StatelessWidget {
         decoration: BoxDecoration(
             color: Colors.grey[50],
             border: Border.all(color: Colors.black54),
-            borderRadius: BorderRadius.circular(3)),
+            borderRadius: BorderRadius.circular(10)),
         child: FormBuilderTextField(
           name: _fieldType,
           validator: ((value) {

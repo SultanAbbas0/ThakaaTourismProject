@@ -19,7 +19,7 @@ class _AuthScreenState extends State<AuthScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return _isLoginScreen
+    return !_isLoginScreen
         ? SigninScreen(ChangeFormType)
         : SignupScreen(ChangeFormType);
   }

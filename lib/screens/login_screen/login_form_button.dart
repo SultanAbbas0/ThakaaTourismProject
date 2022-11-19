@@ -10,15 +10,16 @@ class LoginFormButton extends StatelessWidget {
       child: Container(
         margin: EdgeInsets.only(top: 20),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(5),
+          borderRadius: BorderRadius.circular(20),
           color: Colors.blue[400],
         ),
         alignment: Alignment.center,
         child: Text(
           "Log in",
-          style: TextStyle(fontSize: 16),
+          style: TextStyle(fontSize: 16, color: Colors.white),
         ),
         height: 40,
+        width: 110,
       ),
     );
   }

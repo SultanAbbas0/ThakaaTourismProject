@@ -2,6 +2,11 @@ import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.da
 import 'package:firebase_auth/firebase_auth.dart';
 import "package:flutter/material.dart";
 import "package:cloud_firestore/cloud_firestore.dart";
+import 'package:thakaa_tourism_project/models/trip.dart';
+import 'package:thakaa_tourism_project/screens/day1_screen.dart';
+import 'package:thakaa_tourism_project/screens/days_screen.dart';
+import 'package:thakaa_tourism_project/screens/groups_screen.dart';
+import 'package:thakaa_tourism_project/screens/hotSpot.dart';
 
 class BottomNavigationBarScreen extends StatefulWidget {
   const BottomNavigationBarScreen({super.key});
@@ -23,29 +28,16 @@ class _BottomNavigationBarScreenState extends State<BottomNavigationBarScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: FloatingActionButton(
-          child: Text("x"),
-          onPressed: () async {
-            await FirebaseAuth.instance.signOut();
-          }),
       body: IndexedStack(
         children: [
-          Scaffold(
-            body: Center(
-              child: Text("Screen 1"),
-            ),
-          ),
-          Scaffold(
-            body: Center(
-              child: Text("Screen 2"),
-            ),
-          )
+          DaysScreen(),
+          GroupsScreen(),
+          HotSpotScreen(),
         ],
         index: _item_index,
       ),
       bottomNavigationBar: AnimatedBottomNavigationBar(
         icons: [
-          Icons.directions_transit_sharp,
           Icons.schedule,
           Icons.group,
           Icons.place_outlined,
@@ -53,10 +45,13 @@ class _BottomNavigationBarScreenState extends State<BottomNavigationBarScreen> {
         activeIndex: _item_index,
         activeColor: Colors.black,
         inactiveColor: Colors.black26,
+
+        backgroundColor: Color.fromARGB(255, 35, 92, 120),
         gapLocation: GapLocation.none,
         notchSmoothness: NotchSmoothness.verySmoothEdge,
-        leftCornerRadius: 20,
-        rightCornerRadius: 20,
+        leftCornerRadius: 0,
+        elevation: 0,
+        rightCornerRadius: 0,
         onTap: (index) => onItemTap(index),
         //other params
       ),
