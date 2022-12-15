@@ -6,7 +6,7 @@ Introducing Guidee - the app that makes creating your travel itinerary a breeze!
 ## Authors
 Sultan Abbas (SultanAbbas0)
 
-Sameer Alsabei (Sameer-13)
+Sameer Alsabei (Sameer-13) [Twitter](https://mobile.twitter.com/Sameer_Alsabei), [Linked in](https://www.linkedin.com/in/sameer-alsabea-610291239/)
 
 Abdulrahman Alabdulkarim (TheGenio) [Twitter](https://twitter.com/GenioOwO), [Linked in](https://www.linkedin.com/in/abdulrahman-ak/)
 
