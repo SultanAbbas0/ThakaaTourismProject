@@ -5,7 +5,9 @@ Introducing Guidee - the app that makes creating your travel itinerary a breeze!
 
 ### Features
 The app offers a daily itinerary feature that is divided into three parts: morning, midday, and evening. Each section provides a food suggestion and an activity suggestion to help plan the day. 
+
 Additionally, the app includes a groups page that allows users to connect with local groups participating in activities such as hiking. 
+
 Lastly, the app showcases hot spots in the area, including festivals, events, and fairs through the hots page.
 
 ## Authors
