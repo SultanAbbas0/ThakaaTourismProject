@@ -10,7 +10,7 @@ Sameer Alsabei (Sameer-13) [Twitter](https://mobile.twitter.com/Sameer_Alsabei),
 
 Abdulrahman Alabdulkarim (TheGenio) [Twitter](https://twitter.com/GenioOwO), [Linked in](https://www.linkedin.com/in/abdulrahman-ak/)
 
-Osama Al-ibrahim (osamaalibrahim)
+Osama Al-ibrahim (osamaalibrahim) [Twitter](https://twitter.com/alibrahim_77) [Linked in](https://www.linkedin.com/in/osama-alibrahim-4bb854227)
 
 ## Screenshots:
 Login Page (linked with firebase authentication)
