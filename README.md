@@ -3,6 +3,11 @@
 
 Introducing Guidee - the app that makes creating your travel itinerary a breeze! With Guidee, you can easily plan and organize your trip, from restaurants and cafes to activities and attractions. Simply enter your destination, budget and travel dates, and Guidee will automatically generate a customized itinerary for you.  Say goodbye to the stress of planning your trip and hello to an effortless and enjoyable travel experience with Guidee.
 
+### Features
+The app offers a daily itinerary feature that is divided into three parts: morning, midday, and evening. Each section provides a food suggestion and an activity suggestion to help plan the day. 
+Additionally, the app includes a groups page that allows users to connect with local groups participating in activities such as hiking. 
+Lastly, the app showcases hot spots in the area, including festivals, events, and fairs through the hots page.
+
 ## Authors
 Sultan Abbas (SultanAbbas0)
 
