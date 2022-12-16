@@ -13,11 +13,24 @@ Abdulrahman Alabdulkarim (TheGenio) [Twitter](https://twitter.com/GenioOwO), [Li
 Osama Al-ibrahim (osamaalibrahim) [Twitter](https://twitter.com/alibrahim_77) [Linked in](https://www.linkedin.com/in/osama-alibrahim-4bb854227)
 
 ## Screenshots:
-Login Page (linked with firebase authentication)
+#### Login Page (linked with firebase authentication)
+
+![WhatsApp Image 2022-12-16 at 13 49 09](https://user-images.githubusercontent.com/90417603/208106207-7695ad82-9284-408e-bcf7-aa4a40b041dc.jpeg)
 
 
 
+#### Create Trip page (all data is linked with firestore)
+![WhatsApp Image 2022-12-16 at 13 49 09 (1)](https://user-images.githubusercontent.com/90417603/208106388-f61aa521-962e-447e-bed7-e17afaaec16a.jpeg)
 
+
+#### Home Page With Trip Information (all data is linked with firestore)
+![WhatsApp Image 2022-12-16 at 13 49 10](https://user-images.githubusercontent.com/90417603/208106962-0cf62ba6-8f04-4f54-9c56-8b1b4644f858.jpeg)
+
+#### Day by Day Page (all data is linked with firestore)
+![WhatsApp Image 2022-12-16 at 13 49 10 (1)](https://user-images.githubusercontent.com/90417603/208107013-6f46bb89-a7db-4364-84f0-25fb3693122e.jpeg)
+
+#### Groups Page 
+![WhatsApp Image 2022-12-16 at 13 49 11](https://user-images.githubusercontent.com/90417603/208107238-84e6ccc6-deab-4fef-838d-8036c562de8e.jpeg)
 
 
 ## To use the Guidee app, follow these steps:
